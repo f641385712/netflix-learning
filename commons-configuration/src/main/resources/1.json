@@ -1,0 +1,8 @@
+{
+  "name": "YourBatman",
+  "age": 18,
+  "son": {
+    "name": "${name}-son",
+    "age": 2
+  }
+}
