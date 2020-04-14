@@ -66,5 +66,6 @@ public class TestCluster {
         System.out.println("所属区域：" + clusterResolver.getRegion());
         System.out.println("端点们：");
         clusterResolver.getClusterEndpoints().stream().forEach(e -> System.out.println(e.getRegion() + " -> " + e.getZone()));
+
     }
 }
