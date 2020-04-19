@@ -1,2 +1,6 @@
 server:
   port: 8080
+
+
+my:
+  age: 18
