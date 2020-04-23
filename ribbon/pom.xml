@@ -34,11 +34,23 @@
             <artifactId>ribbon-eureka</artifactId>
             <version>${ribbon.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.netflix.ribbon</groupId>
+            <artifactId>ribbon-guice</artifactId>
+            <version>${ribbon.version}</version>
+        </dependency>
+
 
         <dependency>
             <groupId>com.netflix.eureka</groupId>
             <artifactId>eureka-client</artifactId>
             <version>${eureka.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
         </dependency>
 
         <!--<dependency>-->
