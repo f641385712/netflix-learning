@@ -13,8 +13,8 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <lombok.version>1.18.10</lombok.version>
-        <!--<ribbon.version>2.7.17</ribbon.version>-->
         <ribbon.version>2.3.0</ribbon.version>
+        <!--<ribbon.version>2.7.18</ribbon.version>-->
         <eureka.version>1.9.13</eureka.version>
     </properties>
 
